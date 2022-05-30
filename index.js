@@ -6,13 +6,13 @@ app.get('/', (req, res) => {
   res.send('Hello World!')
 })
 app.get('/o', (req, res) => {
-  res.send('Hello World!')
+  res.send('mam')
 })
 app.get('/oo', (req, res) => {
-  res.send('Hello World!')
+  res.send('yeah!')
 })
 app.get('/ooo', (req, res) => {
-  res.send('Hello World!')
+  res.send('how!')
 })
 
 app.listen(port, () => {
