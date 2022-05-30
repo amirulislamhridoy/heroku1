@@ -3,7 +3,7 @@ const app = express()
 const port = process.env.PORT || 5000
 
 app.get('/', (req, res) => {
-  res.send('Hello World!')
+  res.send('omg!')
 })
 app.get('/o', (req, res) => {
   res.send('mam')
@@ -18,3 +18,4 @@ app.get('/ooo', (req, res) => {
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
 })
+///slfjsl
